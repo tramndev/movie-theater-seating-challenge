@@ -1,7 +1,9 @@
 **MOVIE THEATER SEATING CHALLENGE**
+
 The program is managed to assign seats within a movie theater to fulfill reservation requests.
 
 **Assumption**
+
 The movie theater has the seating arrangement of 10 rows x 20 seats.
 
 Seating preferences for public safety:
