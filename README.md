@@ -19,15 +19,9 @@ Program settings:
 
 **Instructions**
 
-1. Open command prompt and clone the repository using HTTPS command:
+1. Open command prompt and clone the repository using the HTTPS command: "git clone https://github.com/tramndev/movie-theater-seating-challenge.git"
 
-&quot;git clone https://github.com/tramndev/movie-theater-seating-challenge.git&quot;
-
-2. In the directory, run the command &quot;python process\_reservation.py \&lt;path\&gt;&quot; where \&lt;path\&gt; is the complete path to the input file.
-
-For example, we have &quot; python process\_reservation.py input/reservations\_1.txt&quot;
-
-The input file should be a .txt file, which contains one line of input for each reservation request. (Refer to input/reservations\_2.txt for an valid example)
+2. In the directory, run the command "python process_reservation.py <input_path>" where is the complete path to the input file. For example, we have &quot; python process\_reservation.py input/reservations\_1.txt&quot; The input file should be a .txt file, which contains one line of input for each reservation request. (Refer to input/reservations\_2.txt for an valid example)
 
 3. The program will return the full path to the output file in which we can find the seat assignments and error messages if there are any invalid reservations provided.
 
