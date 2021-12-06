@@ -14,19 +14,15 @@ Seating preferences for customer satisfaction:
 
 Program settings:
 - The program is managed to run one input file at a time. The program print out error message and terminate if it is provided an invalid path to input file, or wrong number of arguments.
+- The input file should be a .txt file, which contains one line of input for each reservation request. (Refer to input/reservations\_2.txt for an valid example)
 - Output files would be created in the folder &quot;output&quot; inside the repository.
 - Invalid reservation requests would be listed in the corresponding output file along with its reservation identifier.
 
 **Instructions**
-
 1. Open command prompt and clone the repository using the HTTPS command: "git clone https://github.com/tramndev/movie-theater-seating-challenge.git"
-
-2. In the directory, run the command "python process_reservation.py <input_path>" where is the complete path to the input file. For example, we have &quot; python process\_reservation.py input/reservations\_1.txt&quot; The input file should be a .txt file, which contains one line of input for each reservation request. (Refer to input/reservations\_2.txt for an valid example)
-
+2. In the directory, run the command "python process_reservation.py <input_path>" where <input_path> is the complete path to the input file. For example, we have &quot; python process\_reservation.py input/reservations\_1.txt&quot; 
 3. The program will return the full path to the output file in which we can find the seat assignments and error messages if there are any invalid reservations provided.
 
 **Resources for seating order**
-
 [https://www.popsci.com/find-best-seat-movie-theater/](https://www.popsci.com/find-best-seat-movie-theater/)
-
 [https://www.groupon.com/articles/best-movie-theater-seats](https://www.groupon.com/articles/best-movie-theater-seats)
