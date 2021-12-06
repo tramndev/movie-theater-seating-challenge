@@ -5,6 +5,10 @@ import string
 class Theater:
     # Create a theater with the given parameters for size and buffer for public safety 
     def __init__(self, rows, seats, bufer_seats, bufer_row):
+        if seats < 1 or rows < 1 or bufer_seats < 0 or bufer_row < 0:
+            print("Invalid theater parameter")
+            sys.exit()
+
         self.seats_per_row = seats
         self.seats_per_row_char = list(string.ascii_uppercase)[0:seats]
 
@@ -64,11 +68,11 @@ def main():
         print("Input file does not exist.")
         sys.exit()
 
-    theater = Theater(10, 20, 3, 1) # (rows, seats, bufer_seats, bufer_row)
     output_filename = "seat_for_reservations_" +  input_path[-5:] 
     output_path = "output/" + output_filename
     output_file = open(output_path, "w")
 
+    theater = Theater(10, 20, 3, 1) # (rows, seats, bufer_seats, bufer_row)
     with input_file, output_file:
         lines = input_file.readlines()
         for line in lines:
