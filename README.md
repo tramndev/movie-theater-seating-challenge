@@ -1,7 +1,7 @@
+**MOVIE THEATER SEATING CHALLENGE**
 The program is managed to assign seats within a movie theater to fulfill reservation requests.
 
 **Assumption**
-
 The movie theater has the seating arrangement of 10 rows x 20 seats.
 
 Seating preferences for public safety:
@@ -24,5 +24,5 @@ Program settings:
 3. The program will return the full path to the output file in which we can find the seat assignments and error messages if there are any invalid reservations provided.
 
 **Resources for seating order**
-[https://www.popsci.com/find-best-seat-movie-theater/](https://www.popsci.com/find-best-seat-movie-theater/)
-[https://www.groupon.com/articles/best-movie-theater-seats](https://www.groupon.com/articles/best-movie-theater-seats)
+- [https://www.popsci.com/find-best-seat-movie-theater/](https://www.popsci.com/find-best-seat-movie-theater/)
+- [https://www.groupon.com/articles/best-movie-theater-seats](https://www.groupon.com/articles/best-movie-theater-seats)
